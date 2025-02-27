@@ -16,15 +16,21 @@
     //     return value+5
     //    })
     //    console.log(newarr);
-    const products=["apple","mango","orange"];
-    products.map((value,index,arr)=>{
-        console.log(value);
-    })
+    // const products=["apple","mango","orange"];
+    // products.map((value,index,arr)=>{
+    //     console.log(value);
+    // })
 
-    const num=[12,23,45,10];
-    const newarr=num.map((value) => value+5);
-    console.log(newarr);
+    // const num=[12,23,45,10];
+    // const newarr=num.map((value) => value+5);
+    // console.log(newarr);
+    const score=[12,23,45,16];
+    const total=score.reduce((sum,value)=> sum+value);
+    console.log(total);
     </script>
+    
+
+
     
 </body>
 </html>
